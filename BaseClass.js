@@ -2,9 +2,9 @@ class BaseClass{
   constructor(x, y,radius) {
       var options = {
           "isStatic" : true,
-          'restitution':1.5,
+          'restitution':0.5,
           'friction':0.5,
-          'density':1.5
+          'density':10.5
       }
       this.body = Bodies.circle(x, y,radius);
       this.width = radius;
