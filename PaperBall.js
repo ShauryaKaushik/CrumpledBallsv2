@@ -1,6 +1,6 @@
 class PaperBall extends BaseClass {
   constructor(x,y){
-    super(x,y,20,25);
+    super(x,y,100,25);
     this.image = loadImage("paperBall.png");
   }
 
